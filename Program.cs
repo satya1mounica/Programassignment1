@@ -298,10 +298,10 @@ namespace DIS_Assignmnet1_SPRING_2022
 
                 int k = length - 1;
 
-                for (int i = 0; i < length; i++) //this loop derives the sum of diagonal 2 exclusing the common elements
+                for (int i = 0; i < length; i++) //this loop derives the sum of diagonal 2 excluding the common elements
                 {
 
-                    if (i != k) // exclusing the common index
+                    if (i != k) // excluding the common index
                     {
                         SumOfDiagonal2 = SumOfDiagonal2 + bulls_grid[i, k];
                     }
